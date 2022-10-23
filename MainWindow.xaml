@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApp2_17._10._2022.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2_17._10._2022"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500">
+    <Grid x:Name="BackForm" >
+        <Grid.RowDefinitions>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Zero" Content="0" Grid.Row="4" Grid.Column="0" FontSize="19" Click="Zero_Click"  />
+        <Button x:Name="One" Content="1" Grid.Row="1" Grid.Column="0" FontSize="19"/>
+        <Button x:Name="Two" Content="2" Grid.Row="1" Grid.Column="1" FontSize="19"  />
+        <Button x:Name="Three" Content="3" Grid.Row="1" Grid.Column="2" FontSize="19"  />
+        <Button x:Name="Four" Content="4" Grid.Row="2" Grid.Column="0" FontSize="19"  />
+        <Button x:Name="Five" Content="5" Grid.Row="2" Grid.Column="1" FontSize="19"  />
+        <Button x:Name="Six" Content="6" Grid.Row="2" Grid.Column="2" FontSize="19"  />
+        <Button x:Name="Seven" Content="7" Grid.Row="3" Grid.Column="0" FontSize="19"  />
+        <Button x:Name="Eight" Content="8" Grid.Row="3" Grid.Column="1" FontSize="19" ></Button>
+        <Button x:Name="Nine" Content="9" Grid.Row="3" Grid.Column="2" FontSize="19"  ></Button>
+
+        <Button x:Name="Plus" Content="+" Grid.Column="3" FontSize="19" Grid.Row="1" />
+        <Button x:Name="Minus" Content="-" Grid.Column="3" FontSize="19" Grid.Row="2" />
+        <Button x:Name="Mult" Content="*" Grid.Column="3" FontSize="19" Grid.Row="3" />
+        <Button x:Name="Divide" Content="/" Grid.Column="3" FontSize="19" Grid.Row="4"  />
+        <Button x:Name="Clear" Content="AC" Grid.Column="2" FontSize="19" Grid.Row="4"  />
+        <Button x:Name="Equal" Content="=" FontSize="19" Grid.Column="1"  Grid.Row="4"   />
+        <TextBox x:Name="TxtSHOW" Grid.ColumnSpan="4" Grid.Column="0" Grid.Row="0" FontSize="19">ooiok</TextBox>
+    </Grid>
+</Window>
